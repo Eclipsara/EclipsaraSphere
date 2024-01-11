@@ -1,14 +1,14 @@
 import React from "react";
 import {Card, CardBody} from "@nextui-org/react";
+import Twitter from "./components/Twitter";
 
 export default function App() {
   return (
-    <div class="">
-    <Card>
-      <CardBody>
-        <p>Make beautiful websites regardless of your design experience.</p>
-      </CardBody>
-    </Card>
-    </div>
+   <>
+   <div class="bg-zinc-900 min-h-screen text-white pt-56">
+   <Twitter />
+   </div>
+
+   </>
   );
 }
